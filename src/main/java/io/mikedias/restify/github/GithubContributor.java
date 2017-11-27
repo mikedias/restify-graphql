@@ -1,9 +1,9 @@
-package io.mikedias.restify;
+package io.mikedias.restify.github;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class Contributor {
+public class GithubContributor {
 
     private String login;
     private int contributions;
@@ -27,6 +27,6 @@ public class Contributor {
 
     @Override
     public String toString() {
-        return "Contributor: [" + login + "] - " + contributions + " contributions.";
+        return "GithubContributor: [" + login + "] - " + contributions + " contributions.";
     }
 }

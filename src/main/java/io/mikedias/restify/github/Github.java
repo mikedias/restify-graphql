@@ -1,16 +1,15 @@
-package io.mikedias.restify;
+package io.mikedias.restify.github;
 
 import com.github.ljtfreitas.restify.http.contract.Get;
 import com.github.ljtfreitas.restify.http.contract.Path;
-import com.github.ljtfreitas.restify.http.contract.PathParameter;
 
 import java.util.List;
 
 @Path("https://api.github.com")
-public interface GitHub {
+public interface Github {
 
     @Get
     @Path("/repos/{owner}/{repo}/contributors")
-    List<Contributor> contributors(String owner, String repo);
+    List<GithubContributor> contributors(String owner, String repo);
 
 }
