@@ -1,0 +1,12 @@
+type Contributor {
+  login: String!
+  contributions: Int!
+}
+
+type Query {
+  allContributors(owner: String!, repository: String!): [Contributor]
+}
+
+schema {
+  query: Query
+}
