@@ -16,11 +16,6 @@
         </dependency>
         <dependency>
             <groupId>com.graphql-java</groupId>
-            <artifactId>graphql-java-tools</artifactId>
-            <version>3.2.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.graphql-java</groupId>
             <artifactId>graphql-java-servlet</artifactId>
             <version>4.0.0</version>
         </dependency>
@@ -40,6 +35,17 @@
             <groupId>com.github.ljtfreitas</groupId>
             <artifactId>java-restify</artifactId>
             <version>1.6.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.22</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.1.9</version>
         </dependency>
 
         <dependency>

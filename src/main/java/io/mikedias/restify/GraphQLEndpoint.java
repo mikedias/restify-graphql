@@ -1,6 +1,5 @@
 package io.mikedias.restify;
 
-import com.coxautodev.graphql.tools.SchemaParser;
 import com.github.ljtfreitas.restify.http.RestifyProxyBuilder;
 import graphql.schema.GraphQLSchema;
 import graphql.servlet.SimpleGraphQLServlet;

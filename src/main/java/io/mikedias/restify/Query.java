@@ -1,6 +1,5 @@
 package io.mikedias.restify;
 
-import com.coxautodev.graphql.tools.GraphQLRootResolver;
 import io.leangen.graphql.annotations.GraphQLQuery;
 
 import java.util.List;
